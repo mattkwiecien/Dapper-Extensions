@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>DapperExtensionsDNX</id>
+    <version>1.1.4</version>
+    <title>DapperExtentions .Net Core</title>
+    <authors>Rafael.Carvalho,Brian.Saunders</authors>
+    <owners>Rafael.Carvalho,Brian.Saunders</owners>
+    <projectUrl>https://github.com/BigtimeNet/Dapper-Extensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extension to Dapper which allows CRUD operations on objects and which enables attribute decorators to modify CRUD.</description>
+    <releaseNotes>Added target frameworks .net core 2.1 and .net standard 2.0 with support for Dapper 2.0.4.  Upgraded to Dapper 1.60.6 when targeting 4.5.1.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <dependencies>
+      <dependency id="Dapper" version="1.50.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\net451\DapperExtensionsDNX.dll" target="lib\net451\DapperExtensionsDNX.dll" />
+    <file src="bin\Release\net451\DapperExtensionsDNX.xml" target="lib\net451\DapperExtensionsDNX.xml" />
+    <file src="bin\Release\netstandard2.0\DapperExtensionsDNX.dll" target="lib\netstandard2.0\DapperExtensionsDNX.dll" />
+    <file src="bin\Release\netstandard2.0\DapperExtensionsDNX.xml" target="lib\netstandard2.0\DapperExtensionsDNX.xml" />
+    <file src="bin\Release\netcoreapp2.1\DapperExtensionsDNX.dll" target="lib\netcoreapp2.1\DapperExtensionsDNX.dll" />
+    <file src="bin\Release\netcoreapp2.1\DapperExtensionsDNX.xml" target="lib\netcoreapp2.1\DapperExtensionsDNX.xml" />
+  </files>
+</package>
